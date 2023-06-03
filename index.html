@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Felinos cósmicos</title>
+</head>
+<body>
+    <img id="img" src="imagenes/main.jpg">
+    <div class="row background-color2 color5" id="main">
+        <h2 id="slogan">Memorias grabadas en el cielo</h2>
+        <h1 id="title">Felinos cósmicos</h1>
+        <p class="col s3" id="p1">
+            Los felinos han sido una de gran importancia para el desarrollo de la sociedad humana desde la antigüedad. Su gracia y misterio han despertado fascinación en culturas de todo el mundo, dejando una huella en la mitología, el arte y la vida cotidiana de las personas; esta influencia ha sido plasmada en el firmamento desde tiempos inmemoriales.
+        </p>
+        <div class="carousel" id="carousel">
+            <a class="carousel-item" href="#sec1"><img id="carousel-img" src="imagenes/egiptogato.jpg"></a>
+            <a class="carousel-item" href="#sec2"><img id="carousel-img" src="imagenes/freyja.jpg"></a>
+            <a class="carousel-item" href="#sec3"><img id="carousel-img" src="imagenes/thundercats.jpg"></a>
+            <a class="carousel-item" href="#sec4"><img id="carousel-img" src="imagenes/leo.jpg"></a>
+            <a class="carousel-item" href="#sec5"><img id="carousel-img" src="imagenes/observatorio.png"></a>
+          </div>
+        <h4 id="footer">José Carlos Robles Martínez 11°B</h2>
+    </div>
+    
+    
+    <div class=" row red" id="sec1">
+        <div class="col s12"></div>
+        <h1>1</h1>
+    </div>
+    <div class=" row blue" id="sec2">
+        <div class="col s12"></div>
+        <h1>2</h1>
+    </div>
+    <div class=" row green" id="sec3">
+        <div class="col s12"></div>
+        <h1>3</h1>
+        <section>
+            <img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt="">
+        </section>
+    </div>
+    <div class=" row yellow" id="sec4">
+        <div class="col s12"></div>
+        <h1>4</h1>
+    </div>
+    <div class=" row orange" id="sec5">
+        <div class="col s12"></div>
+        <h1>5</h1>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems);
+          });
+    </script>
+</body>
+</html>
